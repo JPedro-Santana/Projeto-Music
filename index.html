@@ -7,18 +7,19 @@
     <title>Rocket Music</title>
     <link rel="shortcut icon" href="img/icon rocket music 1.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbfab1d475.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
-            <img src="img/icon rocket music 1.png" alt="">
-            <img src="img/ROCKET MUSIC s.png" alt="">
+            <img src="img/icon rocket music 1.png" alt="" id="simbol">
+            <img src="img/ROCKET MUSIC s.png" alt="" id="logo">
             <ul>
                 <li><a href="">Músicas</a></li>
                 <li><a href="">Listas</a></li>
             </ul>
-            <img src="img/lupa_pesquisa.png" alt="">
-            <img src="img/perfil_icon.png" alt="">
+            <i class="fa-regular fa-magnifying-glass"></i>
+            <i class="fa-regular fa-user"></i>
         </nav>
     </header>
     <div class="main">
@@ -29,48 +30,50 @@
         <p><a href="">1970</a></p>
         <img src="img/capa_album.jpg" alt="" class="capa_album">
     </div>
-    <span class="genero">
-        <p>Gêneros:</p>
-            <ul>
-                <li>Rock</li>
-                <li>Heavy Metal</li>
-            </ul>
+    <section id="section">
+        <span class="genero">
+            <p>Gêneros:</p>
+                <ul>
+                    <li>Rock</li>
+                    <li>Heavy Metal</li>
+                </ul>
         </span>
-    <aside class="aside">
-        <div class="container">
-           <span><img src="img/heart.png" alt="" class="heart"></span> 
-           <p>Favoritar</p>
-           <span><img src="img/watchlater.png" alt="" class="watch"></span>
-           <p>Ouvir Mais Tarde</p>
-           <p>Avalie</p>
-           <hr>
-           <p>Review</p>
-           <hr>
-           <p>Adicionar a Lista</p>
-           <hr>
-           <p>Compartilhar</p>
-        </div>
-    </aside>
-    <div class="info"> <!--Informações Adicionais--> <!--Futuramente adicionar ficha técnica (integrantes da banda, produtores, gravadora etc..)-->
-        <pre>Duração                       7 faixas, 33:24
-            Data de lançamento      13 Fevereiro 1970</pre>
-            <div> <!--Lista de Faixa-->
-                <pre>Lista de Faixas
-    
-                    1  Black Sabbath      
-                    2 The Wizard                  
-                    3 Behind the Wall of Sleep   
-                    4 N.I.B                                
-                    5 Evil Woman                      
-                    6 Sleeping Village               
-                    7 Warning   </pre>
+            <div id="info"> <!--Informações Adicionais--> <!--Futuramente adicionar ficha técnica (integrantes da banda, produtores, gravadora etc..)-->
+                <pre>Duração                       7 faixas, 33:24
+                    Data de lançamento      13 Fevereiro 1970</pre>
+                    <div> <!--Lista de Faixa-->
+                        <pre>Lista de Faixas
+            
+                            1  Black Sabbath      
+                            2 The Wizard                  
+                            3 Behind the Wall of Sleep   
+                            4 N.I.B                                
+                            5 Evil Woman                      
+                            6 Sleeping Village               
+                            7 Warning   </pre>
+                    </div>
+            </div> 
+            <div> <!--Resumo do Albúm-->
+                <p>Black Sabbath é o álbum de estreia lançado pela banda inglesa do mesmo nome, lançado em 1970. Ainda que não tenha recebido muita atenção na época de seu lançamento,
+                    Black Sabbath tem sido, desde então, considerado como um dos discos mais importantes para o desenvolvimento do heavy metal.
+                   Existem várias versões deste álbum, dependendo da versão, com variação no nome das canções. A versão europeia tem "Evil Woman" como a primeira faixa do lado B, enquanto a versão americana tem "Wicked World". A versão remasterizada de 1996 tem as duas. A versão do Black Box já é mais organizada.</p>
             </div>
-    </div> 
-    <div> <!--Resumo do Albúm-->
-        <p>Black Sabbath é o álbum de estreia lançado pela banda inglesa do mesmo nome, lançado em 1970. Ainda que não tenha recebido muita atenção na época de seu lançamento,
-            Black Sabbath tem sido, desde então, considerado como um dos discos mais importantes para o desenvolvimento do heavy metal.
-           Existem várias versões deste álbum, dependendo da versão, com variação no nome das canções. A versão europeia tem "Evil Woman" como a primeira faixa do lado B, enquanto a versão americana tem "Wicked World". A versão remasterizada de 1996 tem as duas. A versão do Black Box já é mais organizada.</p>
-    </div>
+            <aside class="aside">
+                <div class="container">
+                    <span><img src="img/heart.png" alt="" class="heart"></span> 
+                    <p>Favoritar</p>
+                    <span><img src="img/watchlater.png" alt="" class="watch"></span>
+                    <p>Ouvir Mais Tarde</p>
+                    <p>Avalie</p>
+                    <hr>
+                    <p>Review</p>
+                    <hr>
+                    <p>Adicionar a Lista</p>
+                    <hr>
+                    <p>Compartilhar</p>
+                </div>
+            </aside>
+    </section>
     <div> <!--Reviews Populares (Adicionar com js)-->
         <span>Reviews Populares</span>
         <hr>

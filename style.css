@@ -20,6 +20,10 @@ p a:hover{
     
 }
 
+#header{
+    
+}
+
 nav{
     background-color: #00000027;
     padding: 6px;
@@ -82,4 +86,14 @@ color: white;
     position: absolute;
     right: 10px;
     top: 5px; 
+}
+
+.aside{
+    float: right;
+}
+
+
+.container{
+    background-color: #0F1524;
+    display: block;
 }
